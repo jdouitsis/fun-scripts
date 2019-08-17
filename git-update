@@ -1,4 +1,5 @@
 #!/bin/bash
+# A fun script to update some repos every 5 seconds
 
 i=3
 while [ $i -lt 4 ]
