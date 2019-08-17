@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "THIS DOES NOT WORK! YOU HAVE BEEN WARNED!!!"
+Array=('HomeBrew', 'Node.js' 'Yarn', 'react-native-cli')
+
+select item in $Array;
+do
+     echo "You picked $FILENAME ($REPLY), it is now only accessible to you."
+     
+done
