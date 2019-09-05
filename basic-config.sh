@@ -122,6 +122,16 @@ then
 fi
 
 
+read -p "Install typescript? y/n : " install_typescript
+if [ $install_typescript == 'y' ]
+then
+    echo 'Starting typescript install...'
+    sleep 2
+    npm install -g typescript
+    
+fi
+
+
 
 
 
